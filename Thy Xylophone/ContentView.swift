@@ -5,19 +5,22 @@ var player: AVAudioPlayer!
 
 struct ContentView: View {
     var body: some View {
-        
+        // you have some sound file errors!!!
         VStack {
            
             ExtractedView()
                 .padding(.horizontal, 8)
-            
+            Spacer()
 
             ExtractedView1()
                 .padding(.horizontal, 15)
-             
+             Spacer()
+
+            
             ExtractedView2()
                 .padding(.horizontal, 22)
-         
+         Spacer()
+
             ExtractedView3()
                 .padding(.horizontal, 29)
             
